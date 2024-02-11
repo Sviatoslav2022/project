@@ -1,0 +1,29 @@
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.header-top {
+	text-align: center;
+	color:rgb(9, 66, 47);
+	margin-top: 30px;
+}
+.header-text {
+	margin-top: 30px;
+}
+.text-top, .text-middle, .text-bottom {
+	border:2px solid blue;	
+	cursor:pointer;
+	width: 400px;
+	height: 400px;
+}
+.text-link {
+	display: block;
+	margin: o auto;
+	text-align: center;
+	text-decoration: none;
+	color:rgb(30, 112, 100)
+}
+.text-link:hover {
+	color:rgb(10, 66, 58);
+	border-bottom: 1px dashed blue;
+}
