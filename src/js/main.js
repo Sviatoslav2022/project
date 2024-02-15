@@ -413,7 +413,7 @@ console.log(i) */
 
 console.log(array) */
 
-/* let soldier = {
+ let soldier = {
     health: 400,
     armor:100
 }
@@ -424,51 +424,4 @@ let john = {
 john.__proto__ = soldier;
 
 console.log(john);
-console.log(john.armor); */
-
-
-let num = 5,
-    num_two = 10;
-
-if( num === num_two) {
-    console.log('Неверно')
-} else if( num == num_two) {
-    console.log('Это так!')
-}else {
-    console.log('1')
-}
-
- let object = {
-    home: 105,
-    car: true,
-    dog: "bob"
- }
-
- object.cat = 'Tom'
-
- console.log(object)
-
- delete object.cat
-
- console.log(object)
-
-
- let object_two = {
-    home: 33,
-    car: 43,
-    house_two: 22
- }
-
- object_two.__proto__=object
-
- console.log(object)
- console.log(object_two)
-
-function item(a,b) {
-    for(i =2; i < 2; i++) {
-    a= "wewe",
-    b= "sdsdsd"
- }
-}
-console.log(a,b) 
- 
+console.log(john.armor); 
