@@ -1,23 +1,15 @@
- function first() {
-    setTimeout( function() {
-        console.log(1);
-    },  500) ;
-}
+console.log("arr" + " - object");
 
-function second() {
-    console.log(2);
-}
+console.log(4 + " - object");
 
-first();
-second(); 
+let incr = 10;
+    decr = 10;
 
-function learnJS(lang, callback) {
-    console.log( " Я учу" + lang);
-    callback();
-}
+    incr++;
+    decr--;
 
-function done() {
-    console.log("Я выучил JS!");
-}
+console.log(incr);
+console.log(decr);
 
-learnJS("Javascript", done);
+console.log(5*2);
+console.log('2' === 2);

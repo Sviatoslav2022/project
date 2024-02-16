@@ -413,7 +413,7 @@ console.log(i) */
 
 console.log(array) */
 
- let soldier = {
+/*  let soldier = {
     health: 400,
     armor:100
 }
@@ -425,3 +425,98 @@ john.__proto__ = soldier;
 
 console.log(john);
 console.log(john.armor); 
+
+
+ */
+///////////////////////////////////////////////////////////////////Урок 1 типы данных///////////////////////////////////////////////////////
+/* 'use srtict' */
+
+
+/* const num = 5;
+const string = "Hello";
+const boolean = true;
+const sym = Symbol();
+null; // несуществует
+undefined;// существует, но не найден
+const obj ={};
+
+console.log(4 / 0);
+console.log('string'* 9);
+
+ let person = {
+    name: "John",
+    age: 25,
+    isMarried: false
+ };
+
+ console.log(person.name)
+ console.log(person["name"]);
+
+
+
+ let arr =['apple.png', 'street.jpg','tv.png'];
+
+ console.log(arr); */
+
+
+
+
+///////////////////////////////////////////////////////////////////Урок 2 работа с браузером///////////////////////////////////////////////////////
+
+
+/* alert("Hello world");
+
+let answer = confirm("Are you here?");
+
+console.log(answer);
+
+let answers = prompt("Есть ли вам 18?" , "");
+
+console.log(typeof(answers)); */
+
+
+//////////////////////////////////////////////////////////////////Урок 3 конкетанация строк///////////////////////////////////////////////////////
+
+/* console.log("arr" + " - object");
+
+console.log(4 + " - object");
+
+let incr = 10;
+    decr = 10;
+
+    incr++;
+    decr--;
+
+console.log(incr);
+console.log(decr);
+
+console.log(5*2);
+console.log('2' === 2); */
+
+let isChecked = true,
+    isClose = true;
+
+console.log(isChecked || !isClose)
+
+console.log(isChecked && isClose)
+
+/////////////////////////////////////////////////////////////////Урок 4 конкетанация строк///////////////////////////////////////////////////////
+
+
+let money =  "Ваш бюджет на месяц?",
+    time = "Введите дату в формате YYYY-MM-DD";
+
+let appDate = {
+    budjet: 3000,
+    timeData: "02.02.2014",
+    expenses: {},
+    optianalExpenses: {},
+    income:[],
+    savings: false
+};
+
+let answer = confirm('Введите обязательную статью расходов?');
+
+let answerTwo = prompt('Во сколько обойдется?');
+
+/////////////////////////////////////////////////////////////////Урок 4 условия///////////////////////////////////////////////////////
