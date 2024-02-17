@@ -491,19 +491,19 @@ console.log(incr);
 console.log(decr);
 
 console.log(5*2);
-console.log('2' === 2); */
+console.log('2' === 2); 
 
 let isChecked = true,
     isClose = true;
 
 console.log(isChecked || !isClose)
 
-console.log(isChecked && isClose)
+console.log(isChecked && isClose)*/
 
 /////////////////////////////////////////////////////////////////Урок 4 конкетанация строк///////////////////////////////////////////////////////
 
 
-let money =  "Ваш бюджет на месяц?",
+/* let money =  "Ваш бюджет на месяц?",
     time = "Введите дату в формате YYYY-MM-DD";
 
 let appDate = {
@@ -517,6 +517,63 @@ let appDate = {
 
 let answer = confirm('Введите обязательную статью расходов?');
 
-let answerTwo = prompt('Во сколько обойдется?');
+let answerTwo = prompt('Во сколько обойдется?'); */
 
 /////////////////////////////////////////////////////////////////Урок 4 условия///////////////////////////////////////////////////////
+
+/*  if (2*4 ==7) {
+    console.log("Верно")
+}else {
+    console.log("Неверно")
+}
+
+let num =50;
+
+if(num <49) {
+    console.log('Неверно!')
+}else if (num > 100) {
+    console.log("Много!")
+}else {
+    console.log("Верно!")
+}
+
+(num =50) ? console.log('Верно!') : console.log('Неверно!'); //операторы тринарные бинарные и унарные
+
+switch (num) {
+    case num = 49:
+        console.log("Неверно");
+        break;
+    case num  > 100:
+        console.log('Много!');
+        break;
+    case num > 80:
+        console.log('Это еще много!');
+        break;
+    case 50: 
+        console.log('Верно!');
+        break;
+    default:
+        console.log('Что топошло не так');
+        break;
+} 
+ */
+/////////////////////////////////////////////////////////////////Урок 5 циклы///////////////////////////////////////////////////////
+let num = 50;
+/* while(num < 55) {
+    console.log(num);
+    num++;
+} */
+
+/* do {
+    console.log(num);
+    num++;
+}
+while(num < 55); */
+
+/* for (a = 15; a <= 30; a++) {
+    if(a == 25) {
+        break;
+    }
+    console.log(a)
+} */
+
